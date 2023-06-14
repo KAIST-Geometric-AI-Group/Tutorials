@@ -1,0 +1,34 @@
+site_name: KAIST Geometric AI Group Tutorials
+
+theme:
+  name: material
+  icon:
+    logo: material/cube-outline
+
+extra:
+  analytics:
+    provider: google
+    property:
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - meta
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - tables
+
+plugins:
+  - macros
+
+copyright: Copyright &copy; 2023 Minhyuk Sung
+
+nav:
+  - Home: index.md
